@@ -1,0 +1,71 @@
+Loaded 103 feeds
+Feed AUTOSHUN returns HTML - should be checked: http://www.autoshun.org/files/shunlist.csv
+Feed BITCOIN_BLOCKCHAIN_INFO empty
+Feed BI_PROXY_2_30D empty
+Feed BI_SQL_2_30D empty
+Feed BOGON returns HTML - should be checked: http://www.cymru.com/Documents/bogon-bn-agg.txt
+Feed BOTSCOUT returns HTML - should be checked: http://botscout.com/last_caught_cache.htm
+Feed CHAOSREIGNS_IPREP empty
+Feed CLEANMX_VIRUSES returns HTML - should be checked: http://support.clean-mx.de/clean-mx/xmlviruses.php?response=alive&fields=ip
+Feed CRUZIT_WEB_ATTACKS returns HTML - should be checked: http://www.cruzit.com/xwbl2txt.php
+Feed refresh error: Failed to connect to www.dragonresearchgroup.org port 80: Connection timed out
+Feed refresh error: Failed to connect to www.dragonresearchgroup.org port 443: Connection timed out
+Feed refresh error: Failed to connect to www.dragonresearchgroup.org port 443: Connection timed out
+Excluding feed ET_BLOCK by tag
+Skipping feed ET_TOR by type anonymizers
+Feed FEODO returns HTML - should be checked: https://feodotracker.abuse.ch/blocklist/?download=ipblocklist
+Feed HONEYPOT returns HTML - should be checked: http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1
+Feed IW_SPAMLIST returns HTML - should be checked: http://antispam.imp.ch/spamlist
+Feed IW_WORMLIST returns HTML - should be checked: http://antispam.imp.ch/wormlist
+Skipping feed MAXMIND by type anonymizers
+Feed MAXMIND empty
+Feed NT_MALWARE_DNS empty
+Feed NT_MALWARE_HTTP empty
+Feed NT_MALWARE_IRC empty
+Feed NT_SSH_7D empty
+Feed refresh error: Could not resolve host: www.openbl.org
+Feed refresh error: Could not resolve host: www.openbl.org
+Feed refresh error: Could not resolve host: www.openbl.org
+Feed refresh error: Could not resolve host: www.openbl.org
+Excluding feed OPENBL_360D by tag
+Feed refresh error: Could not resolve host: www.openbl.org
+Feed refresh error: Could not resolve host: www.openbl.org
+Feed refresh error: Could not resolve host: www.openbl.org
+Feed refresh error: Could not resolve host: www.openbl.org
+Feed PACKETMAIL returns HTML - should be checked: https://www.packetmail.net/iprep.txt
+Feed PHP_COMMENTERS returns HTML - should be checked: http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1
+Feed PHP_DICTIONARY returns HTML - should be checked: http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1
+Feed PHP_HARVESTERS returns HTML - should be checked: http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1
+Feed PHP_SPAMMERS returns HTML - should be checked: http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1
+Skipping feed PROXYLISTS by type anonymizers
+PHP Notice:  Undefined variable: s in /home/arjen/Downloads/git/seamour/seamour.php on line 154
+Feed  unknown type PROXYLISTS (text/xml)
+Skipping feed PROXYSPY by type anonymizers
+Feed PROXYSPY empty
+Feed SBLAM returns HTML - should be checked: http://sblam.com/blacklist.txt
+Feed SHUNLIST returns HTML - should be checked: http://www.autoshun.org/files/shunlist.csv
+Feed SNORT_IPFILTER empty
+Excluding feed SSLBL_AGGRESSIVE by tag
+PHP Notice:  Undefined variable: s in /home/arjen/Downloads/git/seamour/seamour.php on line 154
+Feed  unknown type STOPFORUMSPAM (application/zip)
+PHP Notice:  Undefined variable: s in /home/arjen/Downloads/git/seamour/seamour.php on line 154
+Feed  unknown type STOPFORUMSPAM_180D (application/zip)
+PHP Notice:  Undefined variable: s in /home/arjen/Downloads/git/seamour/seamour.php on line 154
+Feed  unknown type STOPFORUMSPAM_1D (application/zip)
+PHP Notice:  Undefined variable: s in /home/arjen/Downloads/git/seamour/seamour.php on line 154
+Feed  unknown type STOPFORUMSPAM_30D (application/zip)
+Excluding feed STOPFORUMSPAM_365D by tag
+PHP Notice:  Undefined variable: s in /home/arjen/Downloads/git/seamour/seamour.php on line 154
+Feed  unknown type STOPFORUMSPAM_7D (application/zip)
+PHP Notice:  Undefined variable: s in /home/arjen/Downloads/git/seamour/seamour.php on line 154
+Feed  unknown type STOPFORUMSPAM_90D (application/zip)
+Feed TALOSINTEL_IPFILTER empty
+Skipping feed TOR by type anonymizers
+Feed TOR returns HTML - should be checked: https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.2.3.4
+Skipping feed TOR_EXITS by type anonymizers
+Feed TRUSTEDSEC_ATIF returns HTML - should be checked: https://www.trustedsec.com/banlist.txt
+Feed VIRBL empty
+Skipping feed XROXY by type anonymizers
+Feed XROXY returns HTML - should be checked: http://www.xroxy.com/proxyrss.xml
+Excluding feed ZEUS by tag
+Excluding feed ZEUS_BADIPS by tag
