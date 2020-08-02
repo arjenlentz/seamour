@@ -3,9 +3,9 @@
 
 
 
-define('SEAMOUR_FEEDS_CONF','feeds.conf');
-define('SEAMOUR_CONF','seamour.conf');
-define('SEAMOUR_FEED_DIR','feeds/');
+define('SEYMOUR_FEEDS_CONF','feeds.conf');
+define('SEYMOUR_CONF','seymour.conf');
+define('SEYMOUR_FEED_DIR','feeds/');
 define('MIN_REFRESH_TIME',3600);	// 1 hour
 
 
@@ -32,9 +32,9 @@ function read_config()
 {
 	global $conf;
 
-	$fp = @fopen(SEAMOUR_CONF,'r');
+	$fp = @fopen(SEYMOUR_CONF,'r');
 	if (!$fp)
-		die("Can't open ".SEAMOUR_CONF."\n");
+		die("Can't open ".SEYMOUR_CONF."\n");
 
 	while (($line = fgets($fp)) !== false) {
 		$line = trim($line);
@@ -63,9 +63,9 @@ function read_feeds()
 {
 	global $feeds;
 
-	$fp = @fopen(SEAMOUR_FEEDS_CONF,'r');
+	$fp = @fopen(SEYMOUR_FEEDS_CONF,'r');
 	if (!$fp)
-		die("Can't open ".SEAMOUR_FEEDS_CONF."\n");
+		die("Can't open ".SEYMOUR_FEEDS_CONF."\n");
 
 	while (($line = fgets($fp)) !== false) {
 		# URL tag type HOST description
@@ -99,7 +99,7 @@ function read_feeds()
 
 function refresh_feed ($tag, $url)
 {
-	$feed_file = SEAMOUR_FEED_DIR . strtolower($tag) . '.iplist';
+	$feed_file = SEYMOUR_FEED_DIR . strtolower($tag) . '.iplist';
 
 	$mtime = @filemtime($feed_file);
 	if ($mtime > time() - MIN_REFRESH_TIME) {
@@ -107,7 +107,7 @@ function refresh_feed ($tag, $url)
 		return;
 	}
 
-	$tmpfname = tempnam(sys_get_temp_dir(), 'seamour_');
+	$tmpfname = tempnam(sys_get_temp_dir(), 'seymour_');
 
 	$ch = curl_init($url);
 	$fp = fopen($tmpfname, "w");
